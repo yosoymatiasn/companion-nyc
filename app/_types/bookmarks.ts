@@ -1,16 +1,17 @@
 export type TCategory =
-  | 'arts and crafts'
-  | 'sports and recreation'
-  | 'volunteering and community service'
-  | 'bars and nightlife'
-  | 'cheap and free events'
-  | 'theater and film'
-  | 'learning'
-  | 'concerts and events';
+  | 'Arts and crafts'
+  | 'Sports and recreation'
+  | 'Volunteering and community service'
+  | 'Bars and nightlife'
+  | 'Cheap and free events'
+  | 'Theater and film'
+  | 'Learning'
+  | 'Concerts and events'
+  | 'Tools';
 
 export type TBookmark = {
   title: string;
   description: string;
   url: string;
-  category: TCategory[];
+  categories: TCategory[];
 };
